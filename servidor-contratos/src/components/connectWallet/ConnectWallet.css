@@ -1,11 +1,7 @@
 .buttons {
   position: relative;
-  height: 100%;
-  width: 200px; 
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-right: 24px;
+  align-self:flex-end;
 }
 
 .connect-button {
@@ -36,4 +32,17 @@
 
 .faucet-button {
   max-width: auto;
+}
+.divGeral{
+  display: flex;
+  width: 33%;
+  height: 80%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 5px;
+}
+.saldo{
+  padding: 0;
 }

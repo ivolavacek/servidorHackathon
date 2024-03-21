@@ -13,6 +13,7 @@ const Pagina = ( props ) => {
             <h1>GIV Access</h1>
             <h2>{props.texto}</h2>
             <img src={logo} alt="logo" className="logo-pagina" />
+            
         </div>
     );
 };
